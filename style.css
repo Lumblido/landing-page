@@ -1,0 +1,80 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+.header {
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly; /* Distributes space between the logo and the links */
+    align-items: center; /* Vertically centers the items */
+    padding: 10px; /* Optional: Adds padding around the header */
+    font-size: 18px;
+    color: white;
+    background-color: #1F2937;
+    gap: 120px;
+
+}
+
+.header-logo {
+    font-weight: bold;
+}
+
+.header-links ul {
+    display: flex;
+    list-style: none;
+    padding-right: 0;
+    margin: 0;
+}
+
+.header-links li {
+    margin-left: 20px; /* Space between the links */
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column; /* Stack "hero-text" and "hero-under-text" vertically */
+    margin-right: 20px; /* Optional: adds space between the text and the image */
+    width: 450px; /* Adjust this value to your preference */
+}
+
+
+.hero img {
+    align-self: center; /* Center the image vertically relative to the text */
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 10px; /* Optional: space between "hero-text" and "hero-under-text" */
+}
+
+.hero-under-text {
+    font-size: 18px; /* Adjust the size as needed */
+    color: #E5E7EB; /* Lower contrast color */
+}
+
+.blue-button{
+    text-align: center;
+    color: white;
+    background-color: #3882F6;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    height: auto;
+    width: 100px;
+    margin-top: 20px;
+}
