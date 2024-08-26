@@ -77,4 +77,71 @@ body {
     height: auto;
     width: 100px;
     margin-top: 20px;
+    border-color: white;
+}
+
+.header-information{
+    text-align: center;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    padding: 30px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    text-align: center; /* Centers text and image within the box */
+    margin: 10px; /* Adds space around each box */
+    flex-shrink: 1;
+
+}
+
+.blue-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-evenly;
+    margin: 30px;
+    justify-content: center;
+
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #1F2937;
+    font-weight: 36px;
+    font-family: light italic;
+    font-style: italic;
+    background-color: #E5E7EB;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.author{
+    font-weight: 26px;
+    font-style: normal;
+    text-align: end;
+    font-weight: bold;
+}
+
+.footer{
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
 }
