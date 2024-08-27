@@ -5,6 +5,11 @@ body {
     flex-direction: column;
   }
   
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
 .header {
     display: flex ;
     flex-direction: row;
@@ -53,6 +58,8 @@ body {
 
 .hero img {
     align-self: center; /* Center the image vertically relative to the text */
+     width: 300px;
+    height: 200px;
 }
 
 .hero-text {
@@ -88,32 +95,54 @@ body {
     padding: 30px;
 }
 
+.information-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .information {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center; /* Centers text and image within the box */
     margin: 10px; /* Adds space around each box */
-    flex-shrink: 1;
+    height: 200px;
+    width: 200px;
 
 }
 
 .blue-box{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: left;
+    flex-direction: row;
+    text-align: center;
     background-color: #3882F6;
     color: white;
-    justify-content: space-evenly;
     margin: 30px;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
 .call{
-    display: flex;
-    flex-direction: column;
     font-weight: bold;
+}
+
+.call, .call-text{
+   margin: 0;
+
+}
+
+.left-section {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;    /* Stack items in a column */
 }
 
 .quote{
@@ -130,6 +159,21 @@ body {
     padding: 50px;
     padding-left: 300px;
     padding-right: 300px;
+}
+
+.blue-button-border{
+    text-align: center;
+    color: white;
+    background-color: #3882F6;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    height: auto;
+    width: 100px;
+    margin-top: 20px;
+    border: 1px solid white;
+    transform: translateY(-10px);
 }
 
 .author{
